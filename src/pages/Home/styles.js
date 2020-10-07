@@ -86,20 +86,18 @@ export const TypeBox = styled.div`
 `;
 export const Container = styled.div`
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
 `;
 
 export const Main = styled.div`
-    margin-left: 100px;
     width: 100%;
     margin-top: 30px;
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 350px));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(225px, 350px) ); 
+    grid-row-gap: 20px;
 
 
     @media(max-width: 400px){

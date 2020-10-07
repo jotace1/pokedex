@@ -103,7 +103,7 @@ const Home = () => {
         <Main>
         
         {pokemons.map(pokemon => {
-           return <PokemonItem name={pokemon.name} url={pokemon.url}/>
+           return <PokemonItem key={pokemon.name} name={pokemon.name} url={pokemon.url}/>
         })}
         
 
