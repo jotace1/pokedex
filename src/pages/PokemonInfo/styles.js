@@ -28,6 +28,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-around;
 
+    @media(max-width: 650px){
+        flex-direction: column;
+    }
+
 `;
 
 export const Info = styled.div`
@@ -52,12 +56,23 @@ export const Details = styled.div`
 
     div {
         display: flex;
+        flex: 1;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         span{
-            margin-top: 8px;
+            margin-top: 16px;
+            margin-bottom: 16px;
         }
+    }
+
+    @media(max-width: 650px){
+        max-width: 300px;
+        padding: 50px;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+
     }
 `;
