@@ -62,7 +62,7 @@ const Home = () => {
             </span>
             <Form onSubmit={handleSearchPokemons}>
                 <SearchInput
-                placeholder="Digite o nome do repositório"
+                placeholder="Digite o nome do pokemon"
                 value={search}
                 onChange={e => setSearch(e.target.value)}/>
                 <SearchButton type="submit">Filtrar</SearchButton>
