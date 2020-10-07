@@ -98,7 +98,7 @@ export const Main = styled.div`
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: 350px 350px 350px 350px ;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 350px));
     grid-gap: 20px;
 
     @media( max-width: 1300px){
