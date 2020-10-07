@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
 import { useRouteMatch, Link } from 'react-router-dom';
 
-import logoImg from '../../assets/Pokédex_logo.png';
+import logoImg from '../../assets/Pokédex_logo1.png';
 
 import { Header, Main, Container, Info, Details } from './styles';
 

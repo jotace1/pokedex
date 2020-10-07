@@ -7,7 +7,7 @@ import PokemonItem from '../../components/PokemonItem';
 import logoImg from '../../assets/Pokédex_logo.png';
 import pokeballIcon from '../../assets/logo-icon.png';
 
-import { Header,Form, SearchInput, SearchButton, TypeBox, Main } from './styles';
+import { Header,Form, SearchInput, SearchButton, TypeBox, Main, Container } from './styles';
 
 const Home = () => {
     const [ pokemons, setPokemons ] = useState([]);
@@ -99,7 +99,7 @@ const Home = () => {
                 </div>
             </TypeBox>
         </Header>
-
+        <Container>
         <Main>
         
         {pokemons.map(pokemon => {
@@ -108,7 +108,7 @@ const Home = () => {
         
 
         </Main>
-
+        </Container>
         </>
     );
 }
