@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## :mag_right: About The Project
 <p align="center">
-<img src="public\screenshot.png" alt="Logo" width="500" height="350">
+<img src="public\screenshot.png" alt="Logo" width="700" height="350">
 </p>
 
 
