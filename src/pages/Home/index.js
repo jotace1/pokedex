@@ -15,7 +15,7 @@ const Home = () => {
 
     async function getResponse(){
         const response = await api.get('?offset=5&limit=50');
-
+        console.log(response.data.results);
         setPokemons(response.data.results);
     }
 
@@ -39,9 +39,10 @@ const Home = () => {
     async function handleAddFilter(type){
 
         const response = await api.get(`https://pokeapi.co/api/v2/type/${type}`);
+        console.log(response.data.pokemon);
 
         const newResponse = response.data.pokemon.map(pokemon => {
-            return ({name:pokemon.pokemon.name,url: pokemon.pokemon.url });
+            return ({name:pokemon.pokemon.name,url: pokemon.pokemon.url});
         })
 
         setPokemons(newResponse);

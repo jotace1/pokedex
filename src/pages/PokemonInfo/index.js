@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
 import { useRouteMatch, Link } from 'react-router-dom';
+import { FiDatabase, FiSlack, FiNavigation2, FiType, FiInfo } from 'react-icons/fi'
 
 import logoImg from '../../assets/Pokédex_logo.png';
 
@@ -49,23 +50,23 @@ const PokemonInfo = () => {
                 
                 <Details>
                     <div>
-                        <h3>Type: </h3>
+                        <h3><FiInfo size={20} />Type: </h3>
                         <span>{type}</span>
                     </div>
 
                     <div>
-                        <h3>Height: </h3>
+                        <h3><FiNavigation2 size={20} />Height: </h3>
                         <span>{pokemon.height} decimeters</span>
                     </div>
 
                     <div>
-                        <h3>Weight:</h3>
+                        <h3><FiDatabase size={20} />Weight:</h3>
                         <span>{pokemon.weight} hectograms</span>
                     </div>
 
                     <div>
-                        <h3>Abilities:</h3>
-                        <span>{ability}</span>
+                        <h3><FiSlack size={20} />Abilities:</h3>
+                        <span style={{fontWeight: 'bold'}}>{ability}</span>
                     </div>
                 </Details> 
 

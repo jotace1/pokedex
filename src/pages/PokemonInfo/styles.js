@@ -61,6 +61,15 @@ export const Details = styled.div`
         align-items: center;
         justify-content: center;
 
+        h3 {
+            display: flex;
+            align-items: center;
+
+            svg {
+                margin-right: 4px;
+            }
+        }
+
         span{
             margin-top: 16px;
             margin-bottom: 16px;
