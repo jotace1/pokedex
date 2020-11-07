@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
 import { useRouteMatch, Link } from 'react-router-dom';
-import { FiDatabase, FiSlack, FiNavigation2, FiType, FiInfo } from 'react-icons/fi'
+import { FiDatabase, FiSlack, FiNavigation2, FiInfo } from 'react-icons/fi'
 
 import logoImg from '../../assets/Pokédex_logo.png';
 
