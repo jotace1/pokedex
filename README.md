@@ -11,10 +11,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/jotace1/bookfinder">
-    <img src="src/assets/Pokédex_logo.png" alt="Logo"  height="80">
+    <img src="src/assets/Pokédex_logo.png" alt="Logo"  height="120">
   </a>
 
-  <h3 align="center">POKEDEX</h3>
+  <h3 align="center">POKÉDEX</h3>
 
   <p align="center">
     Aplicação feita utilizando a PokeAPI
@@ -51,15 +51,18 @@
 <!-- ABOUT THE PROJECT -->
 ## :mag_right: About The Project
 <p align="center">
-<img src="public\screenshot.png" alt="Logo" width="500" height="350">
+<img src="public\screenshot.png" alt="Logo" width="550" height="350">
 </p>
 
+<p align="center">
+  <strong>You can use the application online <a href="https://react-pokedex-jc.netlify.app"/>HERE</a></strong>
+</p>
 
 
 ### 💻 Built With
 
 * [ReactJS](https://pt-br.reactjs.org/)
-* [Google Books API](https://developers.google.com/books)
+* [PokeAPI](https://pokeapi.co/)
 
 
 
@@ -84,7 +87,7 @@ yarn
 
 1. Clone the repo
 ```sh
-git clone https://github.com/jotace1/bookfinder.git
+git clone https://github.com/jotace1/pokedex.git
 ```
 2. Install packages
 ```sh
@@ -102,14 +105,14 @@ yarn start
 
 <!-- USAGE EXAMPLES -->
 ## 🚀 Usage
-After running the app, you can search for any book u want.
+After running the app, you can search for any pokemon u want.
 
 Have fun
 
 
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/jotace1/pokedex/issues) for a list of proposed features (and known issues).
 
 
 
@@ -138,23 +141,23 @@ Distributed under the MIT License. See `MIT` for more information.
 
 João Carlos de Souza Castro - [Linkedin](https://www.linkedin.com/in/joaocsc/) - joaocsc01@hotmail.com
 
-Project Link: [https://github.com/jotace1/bookfinder](https://github.com/jotace1/bookfinder)
+Project Link: [https://github.com/jotace1/pokedex](https://github.com/jotace1/bookfinder)
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jotace1/bookfinder.svg?style=flat-square
-[contributors-url]: https://github.com/jotace1/bookfinder/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jotace1/bookfinder.svg?style=flat-square
-[forks-url]: https://github.com/jotace1/bookfinder/network/members
-[stars-shield]: https://img.shields.io/github/stars/jotace1/bookfinder.svg?style=flat-square
-[stars-url]: https://github.com/jotace1/bookfinder/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jotace1/bookfinder.svg?style=flat-square
-[issues-url]: https://github.com/jotace1/bookfinder/issues
-[license-shield]: https://img.shields.io/github/license/jotace1/bookfinder.svg?style=flat-square
-[license-url]: https://github.com/jotace1/bookfinder/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/jotace1/pokedex.svg?style=flat-square
+[contributors-url]: https://github.com/jotace1/pokedex/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jotace1/pokedex.svg?style=flat-square
+[forks-url]: https://github.com/jotace1/pokedex/network/members
+[stars-shield]: https://img.shields.io/github/stars/jotace1/pokedex.svg?style=flat-square
+[stars-url]: https://github.com/jotace1/pokedex/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jotace1/pokedex.svg?style=flat-square
+[issues-url]: https://github.com/jotace1/pokedex/issues
+[license-shield]: https://img.shields.io/github/license/jotace1/pokedex.svg?style=flat-square
+[license-url]: https://github.com/jotace1/pokedex/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/joaocsc/
 
