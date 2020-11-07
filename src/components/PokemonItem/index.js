@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import api from '../../services/api';
 
 import { Box,BoxImg, Button, TypesBox, TypeName } from './styles';
 
